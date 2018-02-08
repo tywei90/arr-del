@@ -1,0 +1,18 @@
+{
+  "name": "arr-del",
+  "version": "1.0.0",
+  "keywords": ["array", "arr", "delete", "del", "elements", "element"],
+  "description": "Delete array elements in one time by array consists of their indexes",
+  "main": "index.js",
+  "author": "tywei90 <tywei90@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {},
+  "repository": {
+    "url": "https://github.com/tywei90/arr-del"
+  },
+  "bugs": {
+    "url": "https://github.com/tywei90/arr-del/issues"
+  },
+  "homepage": "https://github.com/tywei90/arr-del#readme"
+}
