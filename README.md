@@ -14,7 +14,7 @@ $ yarn add arr-del
 
 ## Usage
 
-delete array elements by their indexes:
+Delete array elements by their indexes:
 
 ```js
 var arrDel = require('arr-del');
@@ -37,7 +37,8 @@ arrDel(array, indexArr);
 ## Note
 
 * You can still use -1 represent the last element of Array, and so on.
-* If `Math.abs(indexArr[i]) > array.length`, indexArr[i] will be ignore
+* If `Math.abs(indexArr[i]) > array.length`, `indexArr[i]` will be ignore
+* `indexArr` will be deduplicated
 * You don't need to sort indexArr
 * The method 'arrDel' would not change the value of original array. So if you want to change it, keep in mind to assign to it.
 

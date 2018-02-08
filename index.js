@@ -26,15 +26,16 @@ function arrDel(arr, indexArr) {
 	if(Object.prototype.toString.call(indexArr) !== "[object Array]"){
 		throw new TypeError('PARAM MUST BE ARRAY');
 	}
+	var arrLen = arr.length;
 	for(var i=0, len=indexArr.length; i < len; i++){
 		if(typeof indexArr[i] !== "number"){
 			throw new TypeError('PARAM MUST BE NUMBER ARRAY');
 		}
-		if(Math.abs(indexArr[i]) > indexArr.length){
-			indexArr[i] = indexArr.length + 1;
+		if(Math.abs(indexArr[i]) > arrLen){
+			indexArr[i] = arrLen + 1;
 		}
-		if(indexArr[i] >= -indexArr.length && indexArr[i] < 0){
-			indexArr[i] = indexArr[i] + indexArr.length;
+		if(indexArr[i] >= -arrLen && indexArr[i] < 0){
+			indexArr[i] = indexArr[i] + arrLen;
 		}
 	}
 	// first sort indexArr, then remove redupliction
