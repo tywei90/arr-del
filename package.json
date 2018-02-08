@@ -1,6 +1,6 @@
 {
   "name": "arr-del",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "keywords": ["array", "arr", "delete", "del", "elements", "element"],
   "description": "Delete array elements in one time by array consists of their indexes",
   "main": "index.js",

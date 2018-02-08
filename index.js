@@ -30,8 +30,8 @@ function arrDel(arr, indexArr) {
 		if(typeof indexArr[i] !== "number"){
 			throw new TypeError('PARAM MUST BE NUMBER ARRAY');
 		}
-		if(indexArr[i] < -indexArr.length){
-			indexArr[i] = 0;
+		if(Math.abs(indexArr[i]) > indexArr.length){
+			indexArr[i] = indexArr.length + 1;
 		}
 		if(indexArr[i] >= -indexArr.length && indexArr[i] < 0){
 			indexArr[i] = indexArr[i] + indexArr.length;
