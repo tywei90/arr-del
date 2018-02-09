@@ -20,10 +20,14 @@
 
 function arrDel(arr, indexArr) {
 	// check params
-	if(indexArr === undefined){
+	if (arr == null) {
+    	return [];
+  	}else if(Object.prototype.toString.call(arr) !== "[object Array]"){
+  		throw new TypeError('PARAM MUST BE ARRAY');
+  	}
+  	if(indexArr == null){
 		return arr
-	}
-	if(Object.prototype.toString.call(indexArr) !== "[object Array]"){
+	}else if(Object.prototype.toString.call(indexArr) !== "[object Array]"){
 		throw new TypeError('PARAM MUST BE ARRAY');
 	}
 	var arrLen = arr.length;

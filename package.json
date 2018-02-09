@@ -6,8 +6,14 @@
   "main": "index.js",
   "author": "tywei90 <tywei90@gmail.com>",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.1"
+  },
   "dependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
   "repository": {
     "url": "https://github.com/tywei90/arr-del"
   },

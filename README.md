@@ -1,3 +1,7 @@
+# [![NPM version](https://img.shields.io/npm/v/get-value.svg?style=flat)](https://www.npmjs.com/package/arr-del) [![NPM monthly downloads](https://img.shields.io/npm/dm/get-value.svg?style=flat)](https://www.npmjs.com/package/arr-del) [![NPM total downloads](https://img.shields.io/npm/dt/get-value.svg?style=flat)](https://www.npmjs.com/package/arr-del) [![Windows Build Status](https://img.shields.io/appveyor/ci/tywei90/arr-del.svg?style=flat&label=AppVeyor)](https://ci.appveyor.com/project/tywei90/arr-del)
+
+> Delete array elements in one time by array consists of their indexes.
+
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
