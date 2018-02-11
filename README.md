@@ -74,7 +74,7 @@ $ npm install && npm test
 
 ### Author
 
-** tywei90 **
+**tywei90**
 
 * [github/tywei90](https://github.com/tywei90)
 * [blog/tywei90](https://www.wty90.com)
