@@ -58,8 +58,28 @@ console.log(arr);
 //=> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
+## About
 
-## License
+### Related projects
+
+* [arr-sort](https://www.npmjs.com/package/arr-sort): Delete array elements in one time by array consists of their indexes. | [homepage](https://github.com/tywei90/arr-sort "Delete array elements in one time by array consists of their indexes.")
+
+### Running tests
+
+Running and reviewing unit tests is a great way to get familiarized with a library and its API. You can install dependencies and run tests with the following command:
+
+```sh
+$ npm install && npm test
+```
+
+### Author
+
+** tywei90 **
+
+* [github/tywei90](https://github.com/tywei90)
+* [blog/tywei90](https://www.wty90.com)
+
+### License
 
 Copyright © 2018, [tywei90](https://github.com/tywei90).
 Released under the [MIT License](LICENSE).
