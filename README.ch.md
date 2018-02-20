@@ -1,24 +1,24 @@
 # arr-del [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/tywei90/arr-del/blob/master/LICENSE) [![NPM version](https://img.shields.io/npm/v/arr-del.svg?style=flat)](https://www.npmjs.com/package/arr-del) [![NPM monthly downloads](https://img.shields.io/npm/dm/arr-del.svg?style=flat)](https://www.npmjs.com/package/arr-del) [![NPM total downloads](https://img.shields.io/npm/dt/arr-del.svg?style=flat)](https://www.npmjs.com/package/arr-del) [![Windows Build Status](https://travis-ci.org/tywei90/arr-del.svg?branch=master)](https://travis-ci.org/tywei90/arr-del)
 
-> Delete array elements in one time by array consists of their indexes.
+> 一次性删除数组指定index的元素 
 
-## Install
+## 安装
 
-Install with [npm](https://www.npmjs.com/):
+采用 [npm](https://www.npmjs.com/) 安装:
 
 ```sh
 $ npm install --save arr-del
 ```
 
-Install with [yarn](https://yarnpkg.com):
+采用 [yarn](https://yarnpkg.com) 安装:
 
 ```sh
 $ yarn add arr-del
 ```
 
-## Usage
+## 用法
 
-Delete array elements by their indexes:
+根据数组index删除元素
 
 ```js
 var arrDel = require('arr-del');
@@ -29,24 +29,24 @@ console.log(out);
 ```
 
 
-## Params
+## 参数
 
 ```js
 arrDel(array, indexArr);
 ```
 
-* `array`: **{Array}** The array to delete
-* `indexArr`: **{Number Array}**: Array consists of indexes which you want to delete
+* `array`: **{ Array }** 待删除元素的数组
+* `indexArr`: **{Number Array}**: 欲删除数组元素的index组成的数组
 
-## Note
+## 注意
 
-* You can still use -1 represent the last element of Array, and so on.
-* If `Math.abs(indexArr[i]) > array.length`, `indexArr[i]` will be ignore
-* `indexArr` will be deduplicated
-* You don't need to sort indexArr
-* The method 'arrDel' would not change the value of original array. So if you want to change it, keep in mind to assign to it.
+* 你可以用`-1`表示最后一个数组元素
+* 如果提供的index值满足： `Math.abs(indexArr[i]) > array.length`, `indexArr[i]` 将被忽略
+* `indexArr` 会进行排重
+* 没必要对`indexArr`数组进行排序，已兼容
+* arrDel方法不会改变原来数组的值。如果你想改变它，可以直接将结果赋值。
 
-## Examples
+## 例子
 
 ```js
 var arrDel = require('arr-del');
@@ -58,28 +58,28 @@ console.log(arr);
 //=> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-## About
+## 关于
 
-### Related projects
+### 相关项目
 
-* [arr-sort](https://www.npmjs.com/package/arr-sort): Sort an object array by one or more properties even nested properties. Besides, you can determine the direction even supply a comparison function in each property sorting. | [homepage](https://github.com/tywei90/arr-sort "Sort an object array by one or more properties even nested properties. Besides, you can determine the direction even supply a comparison function in each property sorting.")
+* [arr-sort](https://www.npmjs.com/package/arr-sort): 根据一个或者多个属性对数组进行排序，支持嵌套的属性。而且可以在每个条件中指定排序的方向，并支持传入比较函数。 | [homepage](https://github.com/tywei90/arr-sort "根据一个或者多个属性对数组进行排序，支持嵌套的属性。而且可以在每个条件中指定排序的方向，并支持传入比较函数。")
 
 ### Running tests
 
-Running and reviewing unit tests is a great way to get familiarized with a library and its API. You can install dependencies and run tests with the following command:
+跑集成测试是一个非常好的熟悉一个项目及其API的方法。你可以通过以下命令安装依赖并跑测试：
 
 ```sh
 $ npm install && npm test
 ```
 
-### Author
+### 作者
 
 **tywei90**
 
 * [github/tywei90](https://github.com/tywei90)
 * [blog/tywei90](https://www.wty90.com)
 
-### License
+### 许可证
 
 Copyright © 2018, [tywei90](https://github.com/tywei90).
 Released under the [MIT License](LICENSE).
