@@ -38,7 +38,7 @@ arrDel(array, indexArr);
 ```
 
 * `array`: **{ Array }** 待删除元素的数组
-* `indexArr`: **{Number Array}**: 欲删除数组元素的index组成的数组
+* `indexArr`: **{ Number Array }**: 欲删除数组元素的index组成的数组
 
 ## 注意
 

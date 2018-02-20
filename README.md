@@ -37,8 +37,8 @@ console.log(out);
 arrDel(array, indexArr);
 ```
 
-* `array`: **{Array}** The array to delete
-* `indexArr`: **{Number Array}**: Array consists of indexes which you want to delete
+* `array`: **{ Array }** The array to delete
+* `indexArr`: **{ Number Array }**: Array consists of indexes which you want to delete
 
 ## Note
 
