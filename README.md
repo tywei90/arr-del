@@ -1,5 +1,7 @@
 # arr-del [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/tywei90/arr-del/blob/master/LICENSE) [![NPM version](https://img.shields.io/npm/v/arr-del.svg?style=flat)](https://www.npmjs.com/package/arr-del) [![NPM monthly downloads](https://img.shields.io/npm/dm/arr-del.svg?style=flat)](https://www.npmjs.com/package/arr-del) [![NPM total downloads](https://img.shields.io/npm/dt/arr-del.svg?style=flat)](https://www.npmjs.com/package/arr-del) [![Windows Build Status](https://travis-ci.org/tywei90/arr-del.svg?branch=master)](https://travis-ci.org/tywei90/arr-del)
 
+### [中文](./README.ch.md)
+
 > Delete array elements in one time by array consists of their indexes.
 
 ## Install
